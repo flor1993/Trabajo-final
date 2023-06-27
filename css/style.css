@@ -1,0 +1,1238 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.barra1{
+    background-color: #FFFEDB;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+
+}
+.barra1 img{
+    width: 100px;
+}
+.barra1 h1{
+    font-family: 'Palanquin Dark', sans-serif;
+    background-color: lightcoral;
+    border: solid 4px black;
+    border-radius: 8px;
+    margin-left: 600px;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.barra2{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 25px;
+    background-color: lightcoral;
+    border: solid 3px black;
+    border-radius: 3px;
+    height: 60px;
+}
+.barra2 li{
+    margin-left: 60px;
+    margin-top: 10x;
+}
+.barra2 a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+.barra2 a:hover{
+    color: red;
+}
+.padre1 {
+    display: flex;
+}
+
+.footer {
+    margin-top: 290px;
+    background-color: #149C68;
+    display: flex;
+    height: 60px;
+}
+.footer2{
+    margin-top: 900px;
+    background-color: #149C68;
+    display: flex;
+    height: 60px;
+}
+.logoFooter {
+    width: 90px;
+}
+.ul1 {
+    margin-left: 120px;
+}
+.li1 {
+    margin: 20px;
+    margin-left: 40px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.portada{
+    width: 1366px;
+    height: 300px;
+}
+h2{
+   margin-left:410px;
+   margin-top: 100px;
+   font-size:90px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color:black;
+   text-shadow: white 3px 3px 3px;
+}
+.padre1{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+.hijo1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.reseña{
+    background-color: #38C958;
+    width: 90%;
+    height: 160px;
+    margin-left: 70px;
+    margin-top: 40px;
+    border: solid 4px black;
+    border-radius: 5px;
+}
+.parrafoReseña{
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hijo2{
+    margin-top: 30px;
+}
+.parrafoReseña{
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.padre2{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 120px;
+
+}
+.imagenMain{
+    width: 600px;
+    height: 400px;
+    border: solid 5px black;
+
+}
+.hijo3{
+    background-color: coral;
+    width: 30%;
+    height: 300px;
+    margin-left: 50px;
+    border: solid 4px black;
+}
+.hijoHistoria{
+    background-color: coral;
+    width: 30%;
+    height: 350px;
+    margin-left: 50px;
+    border: solid 4px black;
+}
+h4{
+    font-size: 35px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.parrafoMain{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hijo3Mendoza{
+    background-color: coral;
+    width: 30%;
+    height: 360px;
+    margin-left: 50px;
+    border: solid 4px black;
+}
+.padreFormulario{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 380px;
+    margin-top: 40px;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 80vh;
+    background-color: violet;
+    border: 7px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-decoration: none;
+    margin-right: 330px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.formulario label {
+    background-color: violet;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;  
+}
+.formulario button{
+    font-size: 20px;
+    background-color: palevioletred;
+    color: black;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color: rgb(130, 25, 130);
+    color:white
+}
+.form-control {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: white;
+    border: 4px solid black;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.hijoFormulario{
+    height: 200px;
+}
+
+.regpadre{
+    text-align: center;
+}
+h4 {
+    font-size: 20px;
+    color: rgb(67, 14, 67);
+}
+.h4Historia {
+    font-size: 30px;
+    color: rgb(67, 14, 67);
+    margin-top: 10px;
+}
+.reg{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(9, 84, 9);
+}
+
+.padreGuia{
+    background-color: violet;
+    width: 500px;
+    height: 380px;
+    margin-left: 400px;
+    margin-top: 70px;
+    border: solid 4px ;
+    border-radius: 25px;
+    
+}
+
+.padreGuia1{
+    background-color: violet;
+    width: 500px;
+    height: 380px;
+    margin-top: 120px;
+    border: solid 4px ;
+    border-radius: 25px;
+}
+
+h5{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.parrafoGuia{
+    font-size: 25px;
+
+}
+.hijoGuia{
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+.niñoGuia{
+    margin-top: 40px;
+    background-color: rgb(212, 62, 62);
+    color:black;
+    margin-right: 275px;
+    height: 48px;
+    border:solid 2px;
+    border-radius: 5px;
+}
+.liGuia{
+    font-size: 20px;
+    font-family: 'Belanosima', sans-serif;
+}
+
+
+
+
+h6{
+    font-size: 60px;
+    color: blue;
+    font-family: 'Belanosima', sans-serif;
+
+
+}
+.parrafoGracias{
+    font-size: 30px;
+    color: blue;
+    font-family: 'Belanosima', sans-serif;
+}
+
+
+
+
+@media( max-width: 800px) {
+
+    .barra1{
+        background-color: #FFFEDB;
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+    
+    }
+    .barra1 img{
+        width:5px;
+    }
+    .barra1 h1{
+        font-family: 'Palanquin Dark', sans-serif;
+        background-color: lightcoral;
+        border: solid 4px black;
+        border-radius: 8px;
+        margin-left: 40px;
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .barra2{
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 25px;
+        background-color: lightcoral;
+        border: solid 3px black;
+        border-radius: 3px;
+        height: 60px;
+    }
+    .barra2 li{
+        margin-left: 60px;
+        margin-top: 10x;
+    }
+    .barra2 a{
+        color: black;
+        text-decoration: none;
+        font-size: 30px;
+        font-family: 'Palanquin Dark', sans-serif;
+    }
+    .barra2 a:hover{
+        color: red;
+    }
+    .padre1 {
+        display: flex;
+    }
+    
+    .footer {
+        margin-top: 290px;
+        background-color: #149C68;
+        display: flex;
+        height: 60px;
+    }
+    .footer2{
+        margin-top: 30px;
+    }
+    .logoFooter {
+        width: 90px;
+    }
+    .ul1 {
+        margin-left: 120px;
+    }
+    .li1 {
+        margin: 20px;
+        margin-left: 40px;
+        font-size: 17px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .portada{
+        width: 1366px;
+        height: 300px;
+    }
+    h2{
+       margin-left:400px;
+       margin-top: 100px;
+       font-size:90px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       color:black;
+       text-shadow: white 3px 3px 3px;
+    }
+    .padre1{
+        position: relative;
+        display: inline-block;
+       
+            
+    }
+    .hijo1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        margin-left:-300px;
+    }
+    h3{
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .reseña{
+        background-color: #38C958;
+        width: 90%;
+        height: 160px;
+        margin-left: 70px;
+        margin-top: 40px;
+        border: solid 4px black;
+        border-radius: 5px;
+    }
+    .parrafoReseña{
+        text-align: center;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .hijo2{
+        margin-top: 30px;
+    }
+    .parrafoReseña{
+        text-align: center;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .padre2{
+        display: flex;
+        margin-top: 70px;
+        margin-left: 120px;
+    
+    }
+    .imagenMain{
+        width: 600px;
+        height: 400px;
+        border: solid 5px black;
+    
+    }
+    .hijo3{
+        background-color: coral;
+        width: 30%;
+        height: 300px;
+        margin-left: 50px;
+        border: solid 4px black;
+    }
+    .hijoHistoria{
+        background-color: coral;
+        width: 30%;
+        height: 350px;
+        margin-left: 50px;
+        border: solid 4px black;
+    }
+    h4{
+        font-size: 35px;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    .parrafoMain{
+        margin-top: 30px;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .hijo3Mendoza{
+        background-color: coral;
+        width: 30%;
+        height: 360px;
+        margin-left: 50px;
+        border: solid 4px black;
+    }
+    .padreFormulario{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 380px;
+        margin-top: 40px;
+    }
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        width: 80vh;
+        background-color: violet;
+        border: 7px solid black;
+        border-radius: 5px;
+        margin: 0 auto;
+        text-decoration: none;
+        margin-right: 330px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    .formulario label {
+        background-color: violet;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;  
+    }
+    .formulario button{
+        font-size: 20px;
+        background-color: palevioletred;
+        color: black;
+        margin-top: 10px;
+    }
+    .btn:hover{
+        background-color: rgb(130, 25, 130);
+        color:white
+    }
+    .form-control {
+        margin-bottom: 15px;
+        border-radius: 5px;
+        background-color: white;
+        border: 4px solid black;
+        background-color: white;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+    }
+    
+    .hijoFormulario{
+        height: 200px;
+    }
+    
+    .regpadre{
+        text-align: center;
+    }
+    h4 {
+        font-size: 20px;
+        color: rgb(67, 14, 67);
+    }
+    .h4Historia {
+        font-size: 30px;
+        color: rgb(67, 14, 67);
+        margin-top: 10px;
+    }
+    .reg{
+        font-size: 20px;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(9, 84, 9);
+    }
+    
+    .padreGuia{
+        background-color: violet;
+        width: 500px;
+        height: 380px;
+        margin-left: 400px;
+        margin-top: 70px;
+        border: solid 4px ;
+        border-radius: 25px;
+        
+    }
+    
+    .padreGuia1{
+        background-color: violet;
+        width: 500px;
+        height: 380px;
+        margin-top: 120px;
+        border: solid 4px ;
+        border-radius: 25px;
+    }
+    
+    h5{
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .parrafoGuia{
+        font-size: 25px;
+    
+    }
+    .hijoGuia{
+        margin-top: 30px;
+        margin-left: 30px;
+    
+    }
+    
+    .niñoGuia{
+        margin-top: 40px;
+        background-color: rgb(212, 62, 62);
+        color:black;
+        margin-right: 275px;
+        height: 48px;
+        border:solid 2px;
+        border-radius: 5px;
+    }
+    .liGuia{
+        font-size: 20px;
+        font-family: 'Belanosima', sans-serif;
+    }
+    
+    h6{
+        font-size: 60px;
+        color: blue;
+        font-family: 'Belanosima', sans-serif;
+    
+    
+    }
+    .parrafoGracias{
+        font-size: 30px;
+        color: blue;
+        font-family: 'Belanosima', sans-serif;
+    }
+}
+
+
+@media( max-width: 800px ) {
+    .barra1{
+        background-color: #FFFEDB;
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+    
+    }
+    .barra1 img{
+        width: 100px;
+    }
+    .barra1 h1{
+        font-family: 'Palanquin Dark', sans-serif;
+        background-color: lightcoral;
+        border: solid 4px black;
+        border-radius: 8px;
+        margin-left: 200px;
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .barra2{
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 25px;
+        background-color: lightcoral;
+        border: solid 3px black;
+        border-radius: 3px;
+        height: 60px;
+    }
+    .barra2 li{
+        margin-left: 60px;
+        margin-top: 10x;
+    }
+    .barra2 a{
+        color: black;
+        text-decoration: none;
+        font-size: 30px;
+        font-family: 'Palanquin Dark', sans-serif;
+    }
+    .barra2 a:hover{
+        color: red;
+    }
+    .padre1 {
+        display: flex;
+    }
+    
+    .footer {
+        margin-top: 290px;
+        background-color: #149C68;
+        display: flex;
+        height: 60px;
+        width: 785px;
+
+    }
+    .footer2{
+        margin-top: 900px;
+        background-color: #149C68;
+        display: flex;
+        height: 60px;
+    }
+    .logoFooter {
+        width: 90px;
+    }
+    .ul1 {
+        margin-left: 20px;
+    }
+    .li1 {
+        margin: 20px;
+        margin-left: 40px;
+        font-size: 17px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .portada{
+        width: 1366px;
+        height: 300px;
+    }
+    h2{
+       margin-left:410px;
+       margin-top: 100px;
+       font-size:90px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       color:black;
+       text-shadow: white 3px 3px 3px;
+    }
+    .padre1{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    
+    }
+    .hijo1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    h3{
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .reseña{
+        background-color: #38C958;
+        width: 90%;
+        height: 210px;
+        margin-left: 70px;
+        margin-top: 40px;
+        border: solid 4px black;
+        border-radius: 5px;
+    }
+    .parrafoReseña{
+        text-align: center;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .hijo2{
+        margin-top: 30px;
+    }
+    .parrafoReseña{
+        text-align: center;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .padre2{
+        display: flex;
+        margin-top: 70px;
+        margin-left: 120px;
+    
+    }
+    .imagenMain{
+        width: 380px;
+        height: 400px;
+        border: solid 5px black;
+    
+    }
+    .hijo3{
+        background-color: coral;
+        width: 30%;
+        height: 400px;
+        margin-left: 50px;
+        border: solid 4px black;
+    }
+    .hijoHistoria{
+        background-color: coral;
+        width: 200px;
+        height: 350px;
+        margin-left: 50px;
+        border: solid 4px black;
+    }
+    h4{
+        font-size: 35px;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    .parrafoMain{
+        margin-top: 30px;
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .hijo3Mendoza{
+        background-color: coral;
+        width: 30%;
+        height: 470px;
+        margin-left: 50px;
+        border: solid 4px black;
+    }
+    .padreFormulario{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 180px;
+        margin-top: 40px;
+    }
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        width: 80vh;
+        background-color: violet;
+        border: 7px solid black;
+        border-radius: 5px;
+        margin: 0 auto;
+        text-decoration: none;
+        margin-right: 330px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    .formulario label {
+        background-color: violet;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;  
+    }
+    .formulario button{
+        font-size: 20px;
+        background-color: palevioletred;
+        color: black;
+        margin-top: 10px;
+    }
+    .btn:hover{
+        background-color: rgb(130, 25, 130);
+        color:white
+    }
+    .form-control {
+        margin-bottom: 15px;
+        border-radius: 5px;
+        background-color: white;
+        border: 4px solid black;
+        background-color: white;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+    }
+    
+    .hijoFormulario{
+        height: 200px;
+    }
+    
+    .regpadre{
+        text-align: center;
+    }
+    h4 {
+        font-size: 20px;
+        color: rgb(67, 14, 67);
+    }
+    .h4Historia {
+        font-size: 30px;
+        color: rgb(67, 14, 67);
+        margin-top: 10px;
+    }
+    .reg{
+        font-size: 20px;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(9, 84, 9);
+    }
+    
+    .padreGuia{
+        background-color: violet;
+        width: 500px;
+        height: 380px;
+        margin-left: 200px;
+        margin-top: 70px;
+        border: solid 4px ;
+        border-radius: 25px;
+        
+        
+    }
+    
+    .padreGuia1{
+        background-color: violet;
+        width: 500px;
+        height: 380px;
+        margin-top: 120px;
+        border: solid 4px ;
+        border-radius: 25px;
+        
+        
+        
+    }
+    
+    h5{
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .parrafoGuia{
+        font-size: 25px;
+    
+    }
+    .hijoGuia{
+        margin-top: 30px;
+        margin-left: 20px;
+    
+    }
+    
+    .niñoGuia{
+        margin-top: 40px;
+        background-color: rgb(212, 62, 62);
+        color:black;
+        margin-right: 275px;
+        height: 48px;
+        border:solid 2px;
+        border-radius: 5px;
+    }
+    .liGuia{
+        font-size: 20px;
+        font-family: 'Belanosima', sans-serif;
+    }
+    
+    h6{
+        font-size: 60px;
+        color: blue;
+        font-family: 'Belanosima', sans-serif;
+    
+    
+    }
+    .parrafoGracias{
+        font-size: 30px;
+        color: blue;
+        font-family: 'Belanosima', sans-serif;
+    }
+}   
+@media( max-width: 400px ) {
+    .barra1{
+        background-color: #FFFEDB;
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+    
+    }
+    .barra1 img{
+        width: 100px;
+    }
+    .barra1 h1{
+        font-family: 'Palanquin Dark', sans-serif;
+        background-color: lightcoral;
+        border: solid 4px black;
+        border-radius: 8px;
+        margin-left: 100px;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .barra2{
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 10px;
+        background-color: lightcoral;
+        border: solid 3px black;
+        border-radius: 3px;
+        height: 60px;
+    }
+    .barra2 li{
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .barra2 a{
+        color: black;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: 'Palanquin Dark', sans-serif;
+
+    }
+    .barra2 a:hover{
+        color: red;
+    }
+    .padre1 {
+        display: flex;
+    }
+    
+    .footer {
+        margin-top: 290px;
+        background-color: #149C68;
+        display: flex;
+        height: 60px;
+        width: 785px;
+
+    }
+    .footer2{
+        margin-top: 900px;
+        background-color: #149C68;
+        display: flex;
+        height: 30px;
+    }
+    .logoFooter {
+        width: 50px;
+    }
+    .ul1 {
+        margin-left: 1px;
+    }
+    .li1 {
+        margin: 20px;
+        margin-left: 1px;
+        font-size: 7px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .portada{
+        width: 500px;
+        height: 200px;
+    }
+    h2{
+       margin-left:410px;
+       margin-top: 100px;
+       font-size:30px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       color:black;
+       text-shadow: white 3px 3px 3px;
+    }
+    .padre1{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    
+    }
+    .hijo1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    h3{
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .reseña{
+        background-color: #38C958;
+        width: 60%;
+        height: 500px;
+        margin-left: 70px;
+        margin-top: 40px;
+        border: solid 4px black;
+        border-radius: 5px;
+    }
+    .parrafoReseña{
+        text-align: center;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .hijo2{
+        margin-top: 30px;
+    }
+    .parrafoReseña{
+        text-align: center;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .padre2{
+        display: flex;
+        margin-top: 70px;
+        margin-left: 120px;
+    
+    }
+    .imagenMain{
+        width: 200px;
+        height: 300px;
+        border: solid 5px black;
+        margin-left: -100px;
+    
+    }
+    .hijo3{
+        background-color: coral;
+        width: 50%;
+        height: 350px;
+        margin-left: -10px;
+        border: solid 4px black;
+        
+    }
+    .hijoHistoria{
+        background-color: coral;
+        width: 200px;
+        height: 350px;
+        margin-left: 10px;
+        border: solid 4px black;
+    }
+    h4{
+        font-size: 35px;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    .parrafoMain{
+        margin-top: 30px;
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .hijo3Mendoza{
+        background-color: coral;
+        width: 50%;
+        height: 500px;
+        margin-left: 20px;
+        border: solid 4px black;
+    }
+    .padreFormulario{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        width: 50vh;
+        background-color: violet;
+        border: 7px solid black;
+        border-radius: 5px;
+        margin: 0 auto;
+        text-decoration: none;
+        margin-right: 330px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    .formulario label {
+        background-color: violet;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;  
+    }
+    .formulario button{
+        font-size: 20px;
+        background-color: palevioletred;
+        color: black;
+        margin-top: 10px;
+    }
+    .btn:hover{
+        background-color: rgb(130, 25, 130);
+        color:white
+    }
+    .form-control {
+        margin-bottom: 15px;
+        border-radius: 5px;
+        background-color: white;
+        border: 4px solid black;
+        background-color: white;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+    }
+    
+    .hijoFormulario{
+        height: 200px;
+    }
+    
+    .regpadre{
+        text-align: center;
+    }
+    h4 {
+        font-size: 20px;
+        color: rgb(67, 14, 67);
+    }
+    .h4Historia {
+        font-size: 30px;
+        color: rgb(67, 14, 67);
+        margin-top: 10px;
+    }
+    .reg{
+        font-size: 20px;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(9, 84, 9);
+    }
+    
+    .padreGuia{
+        background-color: violet;
+        width:1px;
+        height: 380px;
+        margin-left: 100px;
+        margin-top: 70px;
+        border: solid 4px ;
+        border-radius: 25px;
+        
+        
+    }
+    
+    .padreGuia1{
+        background-color: violet;
+        width: 300px;
+        height: 380px;
+        margin-top: 120px;
+        border: solid 4px ;
+        border-radius: 25px;
+        
+    }
+    
+    h5{
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .parrafoGuia{
+        font-size: 25px;
+    
+    }
+    .hijoGuia{
+        margin-top: 30px;
+        margin-left: 10px;
+    
+    }
+    
+    .niñoGuia{
+        margin-top: 40px;
+        background-color: rgb(212, 62, 62);
+        color:black;
+        margin-right: 275px;
+        width: 200px;
+        height: 48px;
+        border:solid 2px;
+        border-radius: 5px;
+    }
+    .liGuia{
+        font-size: 20px;
+        font-family: 'Belanosima', sans-serif;
+    }
+    
+    h6{
+        font-size: 60px;
+        color: blue;
+        font-family: 'Belanosima', sans-serif;
+    
+    
+    }
+    .parrafoGracias{
+        font-size: 30px;
+        color: blue;
+        font-family: 'Belanosima', sans-serif;
+    }
+}   
